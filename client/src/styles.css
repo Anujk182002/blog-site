@@ -1,0 +1,72 @@
+.app{
+    display: flex;
+    justify-content: center;
+    .container{
+      width:1024px;
+      .link{
+        text-decoration: none;
+        color: inherit;
+      }
+  
+
+.auth{
+    display:flex;
+    align-items :center;
+    flex-direction:column;
+    justify-content:center;
+    height: 100vh;
+    background-color:lightblue ;
+}
+h1 {
+    font-size: 20px;
+    color: teal;
+    margin: bottom 20px;
+
+}
+form{
+ display: flex;
+ flex-direction:column;
+ padding:10px;
+ background-color:white;
+ width:200px;
+ gap:20px;
+}
+input{
+ padding:10px;
+border: none;
+border-bottom:1px solid black;
+}
+button{
+padding:10px;
+color:black;
+background-color:teal;
+font-weight: bold;
+cursor:pointer;
+}
+span {
+ font-size: 12px;
+ text-align: center;
+}
+P{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}
+.navbar {
+    .container {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        .logo{}
+        .links{
+         display: flex;
+         gap:10px ;
+
+        }
+
+    }
+}
+    }
+
+
+}
