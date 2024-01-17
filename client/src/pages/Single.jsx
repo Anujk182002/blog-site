@@ -2,8 +2,15 @@ import React from 'react'
 
 function Single() {
   return (
-    <div>
-      Single
+    <div className='single'>
+       <div className='content'>Content</div>
+        
+
+
+
+
+       <div className='menu'>Menu</div>
+
     </div>
   )
 }

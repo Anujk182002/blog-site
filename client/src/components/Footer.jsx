@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Logo from "../img/logo.png"
 function Footer() {
   return (
-    <div>
-      Footer
-    </div>
+    <footer>
+      <img src={Logo} alt=""/>
+      <span>Blogging space</span>
+    </footer>
+      
+  
   )
 }
 
